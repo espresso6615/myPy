@@ -4,7 +4,7 @@ t.color("skyblue") #선색을 하늘색으로 설정
 t.speed(0)         #거북이의 속도를 최대로 설정
 a=1                #a를 1로 설정
 
-for x in range(25):# 25번 반복
+for x in range(20):# 20번 반복
     a=a+1 #a에 1을 더해서 다시a에 저장
     t.begin_fill() #채우기시작
     for x in range(n):#n번 반복
