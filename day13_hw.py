@@ -25,34 +25,34 @@ while True: #아래를 무한 반복
             t.seth(360-b)
             t.fd(1)
             while -250 < t.xcor() < 250 and -250 < t.ycor() < 250: 
-                t.fd(1)
+                t.fd(1)# 벽에 부딪히기 전까지 앞으로 1만큼씩 이동
         else: 
             t.seth(180-b)
             t.fd(1)
             while -250 < t.xcor() < 250 and -250 < t.ycor() < 250: 
-                t.fd(1)
+                t.fd(1)# 벽에 부딪히기 전까지 앞으로 1만큼씩 이동
     if 45<b<135 or 270<b<315:
         if -250 < t.xcor() < 250 : #좌우 500범위 내에서 벽에 부딪히면
             t.seth(360-b)
             t.fd(1)
             while -250 < t.xcor() < 250 and -250 < t.ycor() < 250: 
-                t.fd(1)
+                t.fd(1)# 벽에 부딪히기 전까지 앞으로 1만큼씩 이동
         else:
             t.seth(540-b)
             t.fd(1)
             while -250 < t.xcor() < 250 and -250 < t.ycor() < 250: 
-                t.fd(1)
+                t.fd(1)# 벽에 부딪히기 전까지 앞으로 1만큼씩 이동
     if 180<b<225 or 315<b<360:
         if-250 < t.xcor() < 250 : #좌우 500범위 내에서 벽에 부딪히면
             t.seth(360-b)
             t.fd(1)
             while -250 < t.xcor() < 250 and -250 < t.ycor() < 250: 
-                t.fd(1)
+                t.fd(1)# 벽에 부딪히기 전까지 앞으로 1만큼씩 이동
         else:
             t.seth(540-b)
             t.fd(1)
             while -250 < t.xcor() < 250 and -250 < t.ycor() < 250: 
-                t.fd(1)
+                t.fd(1)# 벽에 부딪히기 전까지 앞으로 1만큼씩 이동
     if a == 0 or a == 45 or a == 90 or a == 135 or a == 180 or a == 225 or a == 270 or a == 315 or a == 360:
         t.lt(180)
         t.fd(1)
