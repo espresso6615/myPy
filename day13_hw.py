@@ -1,13 +1,13 @@
-import turtle as t
+import turtle as t #거북이생성
 import random # 랜덤함수를 생성
-t.shape("circle")
+t.shape("circle") # 거북이 모양을 원모양으로 
 a=random.randint(0,359) #a는 0도부터 359도까지 랜덤 설정
 #벽만들기
 t.speed(0)#가장 빠르게
 t.up()#꼬리들기
 t.goto(-250,-250)#벽을 그리기 위해 시작점으로 이동
 t.down()#꼬리내리기
-for x in range(4):
+for x in range(4):#
     t.fd(500)
     t.lt(90)
 #거북이 중앙으로 가기
@@ -15,7 +15,7 @@ t.up()
 t.home()
 t.down()
 #랜덤 설정된 각도로 회전후 벽까지 이동
-t.seth(a)
+t.seth(a) #랜덤 설정된 각도로 회전
 while -250 < t.xcor() < 250 and -250 < t.ycor() < 250: 
     t.fd(1)# 벽에 부딪히기 전까지 앞으로 1만큼씩 이동
 while True: #아래를 무한 반복
